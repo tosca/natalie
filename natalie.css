@@ -3,45 +3,29 @@
 	margin: 0;
 	padding: 0;
 } 
-p , .p {
-	 font-family:'Julius Sans One' 'Open Sans', sans-serif;
-	 padding-left: 1rem;
-        padding-right: 1rem;
+html {
+	 font-family:'Julius Sans One' 'Open Sans', sans-serif;	 font-size: 16px;
 }
  h1 {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
-	font-size:2em;
+	font-size:24px;
 	font-weight: 700;
 	color: #291979;
 }
-
 .img-responsive { 
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
-.img-small{
-	max-width: 20%;
-}
-.cursor-pointer{
-	cursor: crosshair;
-}
-.responsive-padding{
-	padding-top: 5rem;
+.page-section{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	margin-left:40px;
+	margin-right:40px;
 }
 .ptb-40 {
 	margin-top: 50px;
 	padding-bottom: 40px;
-}.pt {
-	padding-top: 100rem;
-}
-.p-lr{
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-.plr-5 {
-	padding-left: 4rem;
-	padding-right: 4rem;
 }
 .mlr-40 {
 	margin-left: 40px;
@@ -66,7 +50,7 @@ hr {
 	color:#eeedf5;
 }
 .navbar-toggler{
-	background-color:hsla(0, 83%, 45%, 0.671);
+	background-color: transparent;
 	font-size: 1rem;
 }	
 .navbar-toggler-icon {
@@ -81,15 +65,9 @@ hr {
     box-shadow: none;
 }
 .page-wrap {
-	width: 100%;
+	width: 10%;
 	overflow-x: hidden;
-	display: block;
-}
-.column {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	height: auto;
+	display: block; 
 }
 .row:after {
 	content: "";
@@ -99,8 +77,8 @@ hr {
 .page-section{
 	position: relative;
 	display:inside-block;
-	width: 100%;
-	height:100%;
+	padding-left:2rem;
+	padding-right:2rem;
 	margin: auto;
 	overflow-x:hidden;
 	-webkit-transition: all 25s ease-in-out;
@@ -128,9 +106,9 @@ hr {
 /*******Carousel***********/
 .carousel-caption {
 	position: relative;
-	left: auto;
-	right:auto;
-	margin-top: .7rem;
+	width: 300px;
+	overflow: hidden;
+	margin: 20px auto;
 }	
 /* content */
 .content-container {
@@ -238,9 +216,7 @@ html.opacity:hover img {
 	-webkit-transition: all 350ms ease-in-out 0s;
 	transition: all 350ms ease-in-out 0s;
 }
-
-a {
-	color: #61559f;
+a {color: #61559f;
 }
 a:hover {
 	color:#352e5e;
