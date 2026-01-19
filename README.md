@@ -1,1 +1,1 @@
-# ellen-stones this is a showcase of the stone jewelry created by Ellen Buie Niewyk
+# this is a showcase of the metal sculptures creatd by Natalie Macellaio
