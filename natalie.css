@@ -28,7 +28,10 @@ p { line-height: 1.6;
 	}
 .ptb-40 {
 	padding-top: 15%;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+}
+.mx {
+	margin-right: 20;
 }
 hr {
 	margin: 10px 0;
@@ -51,7 +54,7 @@ hr {
     background: no-repeat left center;
 }
 .page-wrap {
-	padding-top:-40%;
+	padding-top:40px;
 	width: 100%;
 	overflow-x: hidden;
 	display: block; 
@@ -84,6 +87,9 @@ hr {
 	text-align: center;
 	color: #61559f;
 	margin-bottom: 30px;
+}
+.section-name {
+	text-align: center;
 }																																																																					
 .link-title { 
 	 font-size: 1.5rem;
