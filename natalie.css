@@ -54,7 +54,7 @@ hr {
     background: no-repeat left center;
 }
 .page-wrap {
-	padding-top:40px;
+	padding-top:0;
 	width: 100%;
 	overflow-x: hidden;
 	display: block; 
@@ -67,9 +67,9 @@ hr {
 .page-section{
 	position: relative;
 	display:inside-block;
-	padding-left:2rem;
-	padding-right:2rem;
-	padding-top: 3rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	padding-top: 1rem;
 	overflow-x:hidden;
 	-webkit-transition: all 25s ease-in-out;
 	transition: all 25s ease-in-out;
