@@ -42,6 +42,7 @@ hr {
 .navbar-brand{
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
 	font-size:1.4rem;
+	font-weight:bolder;
 	text-align: top;
 	color:#6d34b7;
  }
@@ -239,8 +240,22 @@ html.opacity:hover img {
 	-webkit-transition: all 350ms ease-in-out 0s;
 	transition: all 350ms ease-in-out 0s;
 }
-a {color: #61559f;
+a {color: #271f51;
 }
 a:hover {
-	color:#352e5e;
+	color:#03010c;
+}
+@media only screen 
+  and (device-width: 430px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    work-links {
+        scroll-padding-top: 700px;
+    }
+}
+
+/* Add padding to work-links section on phone width to clear fixed navbar */
+@media (max-width: 576px) {
+    #work-links {
+        padding-top: 80px;
+    }
 }
